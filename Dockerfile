@@ -17,6 +17,7 @@ RUN set -xe \
   && apk --update --no-cache upgrade \
   && apk add --no-cache \
     bash \
+    git \
     libstdc++ \
     lksctp-tools \
     libressl \
