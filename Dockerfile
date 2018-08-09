@@ -5,11 +5,11 @@ LABEL maintainer="10peso <org10peso@gmail.com>"
 # Important!  Update this no-op ENV variable when this Dockerfile
 # is updated with the current date. It will force refresh of all
 # of the base images.
-ENV REFRESHED_AT=2018-07-11 \
-  OTP_VER=21.0.2 \
-  OTP_DOWNLOAD_SHA256="bc64a6edcbc403a56b4f75997394697addec61ad67623dba81d11729abb931a8" \
-  ELIXIR_VER=1.6.6 \
-  ELIXIR_DOWNLOAD_SHA256="74507b0646bf485ee3af0e7727e3fdab7123f1c5ecf2187a52a928ad60f93831" \
+ENV REFRESHED_AT=2018-08-09 \
+  OTP_VER=21.0.4 \
+  OTP_DOWNLOAD_SHA256="8830c81042835070d72130a0df78058a5ccb8db9f93829310d93ed6e2e323e0d" \
+  ELIXIR_VER=1.7.2 \
+  ELIXIR_DOWNLOAD_SHA256="3258eca6b5caa5e98b67dd033f9eb1b0b7ecbdb7b0f07c111b704700962e64cc" \
   MIX_HOME=/usr/local/lib/elixir/.mix \
   LANG=C.UTF-8
 
