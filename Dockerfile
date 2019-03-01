@@ -1,15 +1,15 @@
-FROM alpine:3.8 as base_stage
+FROM alpine:3.9 as base_stage
 
 LABEL maintainer="10peso <org10peso@gmail.com>"
 
 # Important!  Update this no-op ENV variable when this Dockerfile
 # is updated with the current date. It will force refresh of all
 # of the base images.
-ENV REFRESHED_AT=2018-08-09 \
-  OTP_VER=21.0.4 \
-  OTP_DOWNLOAD_SHA256="8830c81042835070d72130a0df78058a5ccb8db9f93829310d93ed6e2e323e0d" \
-  ELIXIR_VER=1.7.2 \
-  ELIXIR_DOWNLOAD_SHA256="3258eca6b5caa5e98b67dd033f9eb1b0b7ecbdb7b0f07c111b704700962e64cc" \
+ENV REFRESHED_AT=2019-03-01 \
+  OTP_VER=21.2.6 \
+  OTP_DOWNLOAD_SHA256="aa0b95031e7c01af8a7042a00974ab16ed8fec305a68d7dbaa4185e5d58ef4d5" \
+  ELIXIR_VER=1.8.1 \
+  ELIXIR_DOWNLOAD_SHA256="de8c636ea999392496ccd9a204ccccbc8cb7f417d948fd12692cda2bd02d9822" \
   MIX_HOME=/usr/local/lib/elixir/.mix \
   LANG=C.UTF-8
 
